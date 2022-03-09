@@ -2,7 +2,7 @@
   "name": "web-module-project-component-lifecycle",
   "version": "0.0.1",
   "scripts": {
-    "dev": "fkill :9000 :3000 -s && concurrently \"npm:backend\" \"npm:frontend\"",
+    "dev": "fkill :9000 :3001 -s && concurrently \"npm:backend\" \"npm:frontend\"",
     "test": "cross-env NODE_ENV=testing jest",
     "webpack": "cross-env NODE_ENV=production webpack",
     "heroku-postbuild": "npm run webpack",
